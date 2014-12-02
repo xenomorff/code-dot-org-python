@@ -17,6 +17,8 @@ a = artist
 
 for count in range(3):
     artist.color = artist.random_color()
+    a.move_forward(100)
+    a.turn_right(120)
     # ???
     
 artist.check()

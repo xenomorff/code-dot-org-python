@@ -11,8 +11,14 @@ import codestudio
 artist = codestudio.load('s1level25')
 a = artist
 
-artist.color = 'red'
-
+artist.color = 'purple'
+a.move_forward(100)
+a.turn_right(90)
+a.move_forward(100)
+a.turn_right(90)
+a.move_forward(100)
+a.turn_right(90)
+a.move_forward(100)
 # ???
 
 artist.check()
