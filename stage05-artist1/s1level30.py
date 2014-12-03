@@ -14,6 +14,8 @@ a = artist
 
 artist.color = 'green'
 artist.right(90)
-# ???
+a.move_forward(100)# ???
+a.turn_right()
+a.move_forward(100)
 
 artist.check()
