@@ -17,5 +17,18 @@ artist.right(90)
 a.move_forward(100)# ???
 a.turn_right()
 a.move_forward(100)
+a.turn_right()
+a.move_forward()
+a.turn_right()
+a.move_forward()
+a.turn_left()
+a.move_forward(150)
+a.turn_left()
+a.move_forward()
+a.turn_left()
+a.move_forward()
+a.turn_left()
+a.move_forward()
+
 
 artist.check()
