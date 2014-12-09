@@ -11,6 +11,10 @@ import codestudio
 artist = codestudio.load('s1level35')
 a = artist
 
-# ???
+a.move_forward(100)
+a.turn_right(120)
+a.move_forward(100)
+a.turn_right(120)
+a.move_forward(100)
 
 artist.check()
