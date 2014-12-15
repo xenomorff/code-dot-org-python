@@ -10,7 +10,8 @@ sys.path.append('..')
 import codestudio
 artist = codestudio.load('s1level35')
 a = artist
-
-# ???
+for count in range(4):
+    a.move_forward()
+    a.turn_right(120)
 
 artist.check()
