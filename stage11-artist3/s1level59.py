@@ -11,7 +11,13 @@ sys.path.append('..')
 import codestudio
 zombie = codestudio.load('s1level59')
 z = zombie
-
+z.move_forward()
+z.turn_right()
+z.move_forward()
+z.turn_right()
+z.move_forward()
+z.turn_right()
+z.move_forward()
 # ???
 
 zombie.check()
