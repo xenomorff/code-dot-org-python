@@ -13,13 +13,16 @@ sys.path.append('..')
 import codestudio
 zombie = codestudio.load('s1level61')
 z = zombie
-
 def draw_square(length):
-    for count in range(4):
-        zombie.move_forward(length)
-        zombie.turn_right(90)
+        for count in range(4):
+            zombie.move_forward(length)
+            zombie.turn_right(90)
+        z.turn_right(120)
+
+
 
 zombie.color = zombie.random_color()
-draw_square(100)
+for count in range(3):
+    draw_square(100)
 
 zombie.check()
