@@ -27,5 +27,10 @@ def draw_snowman(length):
 zombie.speed = 'fastest'
 
 draw_snowman(150)
+z.turn_right()
+z.turn_left()
+z.jump_forward(100)
+draw_snowman(150)
+z.turn_right()
 
 zombie.check()
