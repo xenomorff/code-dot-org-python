@@ -26,7 +26,9 @@ def draw_circle():
         zombie.move_forward(1)
         zombie.turn_right(1)
     zombie.speed = saved_speed
+    
 
-# ???
+draw_square()
 
 zombie.check()
+
